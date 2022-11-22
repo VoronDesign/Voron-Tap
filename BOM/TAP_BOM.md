@@ -18,6 +18,7 @@
 |Hardware|10|M3 x 6 BHCS|Button Head Cap Screw|
 
 <h2>Sensor Options:  Select either “Wired Sensor” or “PCB Sensor"</h2>
+
 **Wired**
 |Category|Qty|Description|Notes|Links|
 |:----|:----|:----|:----|:----|
