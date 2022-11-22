@@ -1,3 +1,5 @@
+<h1>Bill of Materials</h1>
+
 |Category|Qty|Description|Notes|
 |:----|:----|:----|:----|
 |Hardware|1|50 mm MGN9 Rail|see cutting guide, Ends deburred, overall length +/- 1 mm|
@@ -15,7 +17,7 @@
 |Hardware|2|M3 x 10 BHCS|Button Head Cap Screw|
 |Hardware|10|M3 x 6 BHCS|Button Head Cap Screw|
 
-**Sensor Options:  Select either “Wired Sensor” or “PCB Sensor”**
+<h2>**Sensor Options:  Select either “Wired Sensor” or “PCB Sensor”**</h2>
 
 **Wired**
 |Category|Qty|Description|Notes|Links|
