@@ -15,7 +15,7 @@
 |Hardware|2|M3 x 10 BHCS|Button Head Cap Screw| |
 |Hardware|10|M3 x 6 BHCS|Button Head Cap Screw| |
 | |Sensor Options:  Select either “Wired Sensor” or “PCB Sensor”| | | |
-| | |Wired:| | |
+| | |*Wired:*| | |
 |Electronics|1|220 Ohm resistor | ¼ Watt, +/- 10% tolerance resistor| |
 |Electronics|1|OPB Wired Sensor|Optek sensor, wired. OPB991| |
 | | | |OPB991P51Z| |
@@ -25,7 +25,7 @@
 | | | |OPB991L11|https://www.digikey.com/short/cnnhjr5n|
 | | | | | |
 | | | | | |
-| | |PCB Sensor| | |
+| | |*PCB Sensor*| | |
 |Electronics|1|OptoTap v2 PCB| | |
 |Electronics|1|OPB PCB Sensor|Optek sensor: OPB666N or OPB971N51| |
 | | | |OPB666N|https://www.digikey.com/short/f2mzw5rm|
