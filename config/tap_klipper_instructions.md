@@ -11,7 +11,7 @@ There are a few changes you'll need to make in order to get Tap working properly
    Remember, with Tap, your nozzle IS the probe, so your `[probe] x_offset` and `[probe] y_offset` values should be 0 now. You'll need to manually calibrate the probe's Z offset by using `PROBE_CALIBRATE`.
 1. Add Tap's `activate_gcode:`  
    This G-code will allow you to probe cold, but will also prevent you from probing with a nozzle at printing temperature (to try to preserve your build surface). This goes in the `[probe]` section of your config.  
-<!-- {% raw %} -->
+
 ```
 activate_gcode:
     {% set PROBE_TEMP = 150 %}
@@ -30,4 +30,3 @@ activate_gcode:
         {% endif %}
     {% endif %}
 ```
-<!-- {% endraw %} -->
