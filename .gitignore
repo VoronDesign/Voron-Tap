@@ -54,9 +54,6 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
-*.xml
-
 # VSCodeignores provided by github/gitignore
 .vscode/*
 
