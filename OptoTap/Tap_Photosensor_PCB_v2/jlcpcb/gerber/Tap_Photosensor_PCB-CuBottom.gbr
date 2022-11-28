@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*%
-%TF.CreationDate,2022-11-26T20:19:59-08:00*%
+%TF.CreationDate,2022-11-27T15:34:26-08:00*%
 %TF.ProjectId,Tap_Photosensor_PCB,5461705f-5068-46f7-946f-73656e736f72,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Copper,L2,Bot*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-11-26 20:19:59*
+G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-11-27 15:34:26*
 %MOMM*%
 %LPD*%
 G01*
@@ -30,16 +30,16 @@ G04 Aperture macros list*
 20,1,$1+$1,$8,$9,$2,$3,0*%
 G04 Aperture macros list end*
 %TA.AperFunction,ComponentPad*%
-%ADD10RoundRect,0.250000X-0.625000X0.350000X-0.625000X-0.350000X0.625000X-0.350000X0.625000X0.350000X0*%
+%ADD10R,1.310000X1.310000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD11O,1.750000X1.200000*%
+%ADD11C,1.310000*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD12R,1.310000X1.310000*%
+%ADD12RoundRect,0.250000X-0.625000X0.350000X-0.625000X-0.350000X0.625000X-0.350000X0.625000X0.350000X0*%
 %TD*%
 %TA.AperFunction,ComponentPad*%
-%ADD13C,1.310000*%
+%ADD13O,1.750000X1.200000*%
 %TD*%
 %TA.AperFunction,ViaPad*%
 %ADD14C,0.800000*%
@@ -49,22 +49,10 @@ G04 Aperture macros list end*
 %TD*%
 G04 APERTURE END LIST*
 D10*
-%TO.P,J1,1,Pin_1*%
-%TO.N,Vin*%
-X112925000Y-56900000D03*
-D11*
-%TO.P,J1,2,Pin_2*%
-%TO.N,SIG*%
-X112925000Y-58900000D03*
-%TO.P,J1,3,Pin_3*%
-%TO.N,GND*%
-X112925000Y-60900000D03*
-%TD*%
-D12*
 %TO.P,U1,1,ANODE*%
 %TO.N,Net-(R1-Pad2)*%
 X108335000Y-66770000D03*
-D13*
+D11*
 %TO.P,U1,2,CATHODE*%
 %TO.N,GND*%
 X108335000Y-64230000D03*
@@ -77,6 +65,18 @@ X116465000Y-65500000D03*
 %TO.P,U1,5,GROUND*%
 %TO.N,GND*%
 X116465000Y-67405000D03*
+%TD*%
+D12*
+%TO.P,J1,1,Pin_1*%
+%TO.N,Vin*%
+X112925000Y-56900000D03*
+D13*
+%TO.P,J1,2,Pin_2*%
+%TO.N,SIG*%
+X112925000Y-58900000D03*
+%TO.P,J1,3,Pin_3*%
+%TO.N,GND*%
+X112925000Y-60900000D03*
 %TD*%
 D14*
 %TO.N,+5V*%
