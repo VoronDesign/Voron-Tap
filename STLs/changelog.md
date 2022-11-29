@@ -7,4 +7,4 @@ As a result of this, the revision numbers of the most current parts may not matc
 https://github.com/VoronDesign/Voron-Tap/issues/15
 
 11/29/2022
-[a]Tap_Center_r3: re-added in the support structure that wen missing at [a]Tap_Center_r2
+[a]Tap_Center_r3: re-added in the support structure that went missing at [a]Tap_Center_r2
