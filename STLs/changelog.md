@@ -3,6 +3,8 @@ Important note:  When a change is made it is normal for only a few parts to chan
 As a result of this, the revision numbers of the most current parts may not match.
 
 11/28/2022
-Tap_Center_r2: fixed a minor issue in the MGN12H chamfer that would cause some MGN12H carriages to not fit properly (issue 15)
+[a]Tap_Center_r2: fixed a minor issue in the MGN12H chamfer that would cause some MGN12H carriages to not fit properly (issue 15)
+https://github.com/VoronDesign/Voron-Tap/issues/15
+
 11/29/2022
-Tap_Center_r3: re-added in the support structure that wen missing at Tap_Center_r2
+[a]Tap_Center_r3: re-added in the support structure that wen missing at [a]Tap_Center_r2
