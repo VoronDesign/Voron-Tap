@@ -36,6 +36,7 @@ For well-built machines you can expect to see between 0.0000 and 0.0008 standard
 
 ## FAQs
 
+* Will it hurt my print surface? No, as probing temp is restricted to 150C. The team recommends spray coated spring steel. Users of PEI applied surfaces may find minor indent if continously probing the same spot.
 * Will the hartk 2-piece PCB work with this? Yes, but it requires a slight modification. See discord pin.
 * Can I use an optical sensor not specified in the BOM? Not recommended, the team spent considerable time validating sensors in BOM.
 * Can I use micro-switch instead? Not recommended, but check here for more details: [Unklicky Tap](https://github.com/majarspeed/Unklicky/tree/main/Unklicky_TAP)
@@ -48,6 +49,7 @@ For well-built machines you can expect to see between 0.0000 and 0.0008 standard
 
 Tap engineering is backed by data science. If you want to dive deeper check out the following resources:
 
+* [Voron:LIVE! Voron Tap announcement stream](https://www.youtube.com/watch?v=JLUDLJQXZeU)
 * [Probe accuracy across thermal envelope](https://github.com/KiloQubit/probe_accuracy)
 * [Repeatability at individual corners](https://github.com/sporkus/probe_accuracy_tests)
 
