@@ -8,7 +8,7 @@ Tap is a nozzle-based z-probe for the V2 and Trident printer designs. The entire
 * Any build surface and easily change at will
 * Durability via optical sensor (millions of probe cycles)
 * High temperature reliability (70C to 100C)
-* Simplified probe mechanics (no dock/undoc macros)
+* Simplified probe mechanics (no dock/undock macros)
 * No separate Z-endstop required
 * Crash protection
 
@@ -18,7 +18,7 @@ Tap is a nozzle-based z-probe for the V2 and Trident printer designs. The entire
   * Switchwire, V1.8, Legacy, V0 beds are NOT rigid enough
 * Mounts to MGN-12H X-axis
 * Front mounted extruder (Clockwork2, LGX, Galileo)
-* Accuracy depends on good mechicanical condition
+* Accuracy depends on good mechanical condition
 * Must have 5V available or special 24V PCB
 
 ## Instructions
@@ -36,16 +36,19 @@ For well-built machines you can expect to see between 0.0000 and 0.0008 standard
 
 ## FAQs
 
-* Will the hartk 2 piece board work with this? Yes, but it requires a slight modification. See discord pin.
+* Will the hartk 2-piece PCB work with this? Yes, but it requires a slight modification. See discord pin.
 * Can I use an optical sensor not specified in the BOM? Not recommended, the team spent considerable time validating sensors in BOM.
 * Can I use micro-switch instead? Not recommended, but check here for more details: [Unklicky Tap](https://github.com/majarspeed/Unklicky/tree/main/Unklicky_TAP)
-* Can I use Tap with kinematic bed mounts? Most likely yes if your bed is rigid up to 800 grams of force.
+* Can I use Tap with kinematic bed mounts? Yes, if your bed is rigid up to 800 grams of force.
+* Doesn't this add a lot of weight? The team explored many designs and landed on ~50 extra grams as good trade-off between rigidity and weight.
+* Why do I need this if my induction probe works fine? Tap enables a far better user experience as it eliminates most baby-stepping needed due to thermal expansion, nozzle & bed surface changes.
+* Is tap noticably more accurate than klicky? Yes.
 
 ## (Bonus Points) Data Science
 
 Tap engineering is backed by data science. If you want to dive deeper check out the following resources:
 
-* [Probe accuracy across thermal envelop](https://github.com/KiloQubit/probe_accuracy)
+* [Probe accuracy across thermal envelope](https://github.com/KiloQubit/probe_accuracy)
 * [Repeatability at individual corners](https://github.com/sporkus/probe_accuracy_tests)
 
 
