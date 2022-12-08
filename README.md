@@ -19,7 +19,7 @@ Tap is a nozzle-based z-probe for the V2 and Trident printer designs. The entire
 * Mounts to MGN-12H X-axis
 * Front mounted extruder (Clockwork2, LGX, Galileo)
 * Accuracy depends on good mechanical condition
-* Must have 5V available or special 24V PCB
+* Must have 5V at toolhead or special 24V sensor PCB
 
 ## Instructions
 
@@ -36,14 +36,14 @@ For well-built machines you can expect to see between 0.0000 and 0.0008 standard
 
 ## FAQs
 
-* Will it hurt my print surface? No, as probing temp is restricted to 150C. The team recommends spray coated spring steel. Users of PEI applied surfaces may find minor indent if continously probing the same spot.
-* Will the hartk 2-piece PCB work with this? Yes, but it requires a slight modification. See discord pin.
+* Will Tap hurt my print surface? No, probing temp is restricted to 150C. The team recommends spray coated spring steel. Users of smooth PEI may find minor burnish marks if continously probing the same spot.
+* Will the hartk 2-piece PCB work with Tap? Yes, but it requires a slight modification. See discord pin.
 * Can I use an optical sensor not specified in the BOM? Not recommended, the team spent considerable time validating sensors in [BOM](BOM.md).
 * Can I use micro-switch instead? Not recommended, but check here for more details: [Unklicky Tap](https://github.com/majarspeed/Unklicky/tree/main/Unklicky_TAP)
 * Can I use Tap with kinematic bed mounts? Yes, if your bed is rigid up to 800 grams of force.
 * Doesn't this add a lot of weight? The team explored many designs and landed on ~50 extra grams as good trade-off between rigidity and weight.
 * Why do I need this if my induction probe works fine? Tap enables a far better user experience as it eliminates most baby-stepping needed due to thermal expansion, nozzle & bed surface changes.
-* Is tap noticably more accurate than klicky? Yes.
+* Is Tap noticably more accurate than klicky? Yes.
 
 ## (Bonus Points) Data Science
 
