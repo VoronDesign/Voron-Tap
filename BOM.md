@@ -1,4 +1,4 @@
-<h1>Bill of Materials</h1>
+# Bill of Materials
 
 |Category|Qty|Description|Notes|
 |:----|:----|:----|:----|
@@ -17,7 +17,7 @@
 |Hardware|2|M3 x 10 BHCS|Button Head Cap Screw|
 |Hardware|10|M3 x 6 BHCS|Button Head Cap Screw|
 
-<h2>Sensor Options:  Select either “Wired Sensor” or “PCB Sensor"</h2>
+## Sensor Options:  Select either “Wired Sensor” or “PCB Sensor"
 
 **Wired**
 |Category|Qty|Description|Notes|Links|
