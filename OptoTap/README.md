@@ -30,7 +30,7 @@ This version saves some vertical room by requiring you to solder your connector 
 
 <img src="./images/optotap_v2.png" width=600>
 
-This version uses an AP63205WU switch mode regulator to drop input voltage and supply 5V to the sensor. This gives a bit of additional room to add a JST-PH 2.0mm pitch connector as well. 
+This version uses an AP63205WU switch mode regulator to drop input voltage and supply 5V to the sensor. This gives a bit of additional room to add a JST-PH 2.0mm pitch connector as well [part number S3B-PH-K-S (LF)(SN)].
 
 You can safely connect voltages from 5V to 24V to this board. 
 
