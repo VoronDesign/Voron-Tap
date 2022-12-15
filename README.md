@@ -2,7 +2,7 @@
 
 ![Voron-Tap3](images/Voron-Tap.gif)
 
-> image courtesy of [Maple Leaf Makers](https://github.com/MapleLeafMakers) , see the whole video at https://www.youtube.com/watch?v=mz5qcOZgXhI
+> Animated image courtesy of [Maple Leaf Makers](https://github.com/MapleLeafMakers) , see the whole video at https://www.youtube.com/watch?v=mz5qcOZgXhI
 
 Tap is a nozzle-based z-probe for the V2 and Trident printer designs. The entire toolhead moves to trigger an optical switch. Tap offers many advantages:
 
