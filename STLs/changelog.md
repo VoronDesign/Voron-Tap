@@ -8,3 +8,11 @@ https://github.com/VoronDesign/Voron-Tap/issues/15
 
 11/29/2022
 [a]Tap_Center_r3: re-added in the support structure that went missing at [a]Tap_Center_r2
+
+12/16/2022
+[a]Tap_Center_r4: reinforced area above magnet holders
+Tap_upper_D2HW_r1: new variant for switch
+Tap_upper_PCB_r2: minor changes to optical sensor location for better trigger
+Tap_upper_wired_r2: repositioned sensor to same location as PCB
+Tap_front_r2: increased clearance to M3x12 endstop
+
