@@ -16,3 +16,4 @@ Tap_upper_PCB_r2: minor changes to optical sensor location for better trigger
 Tap_upper_wired_r2: repositioned sensor to same location as PCB
 Tap_front_r2: increased clearance to M3x12 endstop
 
+![Mid December Update](images/12_16_updatelog.png)
