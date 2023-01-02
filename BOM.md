@@ -28,7 +28,7 @@
 | | | |OPB991L51Z| |
 | | | |OPB991T51Z| |
 | | | |OPB991T11Z|https://www.digikey.com/short/rrjtmvwm|
-| | | |OPB991L11|https://www.digikey.com/short/cnnhjr5n|
+| | | |OPB991L11Z|https://www.digikey.com/short/cnnhjr5n|
 
 **PCB Sensor**
 |Category|Qty|Description|Notes|Links|
