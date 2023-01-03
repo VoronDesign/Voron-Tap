@@ -17,3 +17,7 @@ Tap_upper_wired_r2: repositioned sensor to same location as PCB
 Tap_front_r2: increased clearance to M3x12 endstop
 
 ![Mid December Update](../images/12_16_updatelog.png)
+
+1/3/2023
+[a]Tap_Center_r5: eliminates binding issues caused by belts pressing on endcaps, also better belt management
+![Jan 3 Update](../images/1_3_23updatelog.png)
