@@ -20,4 +20,6 @@ Tap_front_r2: increased clearance to M3x12 endstop
 
 1/3/2023
 [a]Tap_Center_r5: eliminates binding issues caused by belts pressing on endcaps, also better belt management
-![Jan 3 Update](../images/1_3_23updatelog.png)
+moved X-switch 1mm to right to activate before collision
+[a]Tap_Center_r6: removed a small artifact that began in r5
+![Jan 3 Update](../images/1_3_23_updatelog.png)
