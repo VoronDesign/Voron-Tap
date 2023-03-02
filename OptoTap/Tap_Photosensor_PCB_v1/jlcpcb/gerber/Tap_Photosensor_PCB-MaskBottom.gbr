@@ -1,47 +1,64 @@
-%TF.GenerationSoftware,KiCad,Pcbnew,(6.0.0-0)*%
-%TF.CreationDate,2022-11-27T15:36:48-08:00*%
+%TF.GenerationSoftware,KiCad,Pcbnew,(7.0.0-0)*%
+%TF.CreationDate,2023-03-02T14:10:56-08:00*%
 %TF.ProjectId,Tap_Photosensor_PCB,5461705f-5068-46f7-946f-73656e736f72,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Bot*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (6.0.0-0)) date 2022-11-27 15:36:48*
+G04 Created by KiCad (PCBNEW (7.0.0-0)) date 2023-03-02 14:10:56*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10R,1.310000X1.310000*%
-%ADD11C,1.310000*%
-%ADD12C,3.200000*%
-%ADD13R,1.700000X1.700000*%
+G04 Aperture macros list*
+%AMHorizOval*
+0 Thick line with rounded ends*
+0 $1 width*
+0 $2 $3 position (X,Y) of the first rounded end (center of the circle)*
+0 $4 $5 position (X,Y) of the second rounded end (center of the circle)*
+0 Add line between two ends*
+20,1,$1,$2,$3,$4,$5,0*
+0 Add two circle primitives to create the rounded ends*
+1,1,$1,$2,$3*
+1,1,$1,$4,$5*%
+G04 Aperture macros list end*
+%ADD10C,3.200000*%
+%ADD11R,1.700000X1.700000*%
+%ADD12R,1.782000X0.958000*%
+%ADD13O,1.782000X0.958000*%
+%ADD14HorizOval,0.955000X0.279101X-0.263011X-0.279101X0.263011X0*%
+%ADD15HorizOval,0.955000X0.279101X0.263011X-0.279101X-0.263011X0*%
 G04 APERTURE END LIST*
 D10*
-%TO.C,U1*%
-X108335000Y-66770000D03*
-D11*
-X108335000Y-64230000D03*
-X116465000Y-63595000D03*
-X116465000Y-65500000D03*
-X116465000Y-67405000D03*
-%TD*%
-D12*
 %TO.C,*%
 X122000000Y-65500000D03*
 %TD*%
-D13*
+D11*
 %TO.C,J1*%
-X107800000Y-60200000D03*
+X107799999Y-60199999D03*
 %TD*%
 %TO.C,J2*%
-X112400000Y-60200000D03*
+X112399999Y-60199999D03*
 %TD*%
-D12*
+D10*
 %TO.C,*%
 X102750000Y-65500000D03*
 %TD*%
-D13*
+D11*
 %TO.C,J3*%
-X117000000Y-60200000D03*
+X116999999Y-60199999D03*
+%TD*%
+D12*
+%TO.C,U1*%
+X108067999Y-66769999D03*
+D13*
+X108067999Y-64229999D03*
+D14*
+X116731999Y-63846999D03*
+D13*
+X116731999Y-65499999D03*
+D15*
+X116731999Y-67152999D03*
 %TD*%
 M02*
