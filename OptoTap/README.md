@@ -84,7 +84,7 @@ The revised versions of the boards (V1.3 and V2.4) feature a hybrid optical sens
 
 However, it has a *slightly* different footprint than the Omron sensor, with annoyingly-close leads on the three pin side. I went through a few iterations of testing to come up with a hybrid footprint that seems to work well for either sensor model.
 
-The slots mean there is a little play in sensor positioning, particularly with the EE-SX398 sensor. To help ensure precise alignment with this sensor, print out the jig included in the [STLs]('./STLs') folder.
+The slots mean there is a little play in sensor positioning, particularly with the EE-SX398 sensor. To help ensure precise alignment with this sensor, print out the jig included in the [STLs](./STLs) folder.
 
 
 ### Sensor Logic
