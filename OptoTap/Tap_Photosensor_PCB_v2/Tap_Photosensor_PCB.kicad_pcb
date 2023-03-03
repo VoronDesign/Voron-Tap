@@ -1029,7 +1029,7 @@
         (effects (font (size 0.55 0.55) (thickness 0.1)) (justify mirror))
       (tstamp 2e171daf-37d0-49f4-bd88-c742369e0c91)
     )
-    (fp_text user "EE-SX3/498" (at 0 1.9) (layer "B.SilkS")
+    (fp_text user "EE-SX398" (at 0 1.9) (layer "B.SilkS")
         (effects (font (size 0.55 0.55) (thickness 0.1)) (justify mirror))
       (tstamp b8f821e6-8c09-468d-b0e6-a338412ca077)
     )
