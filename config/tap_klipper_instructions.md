@@ -42,3 +42,30 @@ activate_gcode:
     {% endif %}
     
 ```
+
+5. Update yor `[quad_gantry_level]` points: (Voron 2.4 only)
+```jinja
+
+
+##  250mm build
+points:
+   50,50
+   50,200
+   200,200
+   200,50
+    
+##  for 300mm build
+points:
+   50,50
+   50,250
+   250,250
+   250,50
+
+## for 350mm build
+points:
+   50,50
+   50,300
+   300,300
+   300,50
+    
+```
