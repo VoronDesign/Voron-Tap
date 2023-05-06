@@ -6,16 +6,19 @@
 |Hardware|1|MGN-9H Carriage|Medium preload (Z1) is preferred, but regular preload will work. Carriage must be removable from rail.|
 |Hardware|2|6 mm x 3 mm magnet|6 mm diameter, 3 mm tall cylinders.  N52 strength preferred,  N35 or higher strength required.|
 |Hardware|11|M3 Heatset Insert|Standard Voron spec 4.7 mm diameter inserts|
-|Hardware|1|H3 Hex Nut|ISO 4032|
-|Hardware|6|M3 Washer|DIN 125, 7mm outer diameter, 0.5 mm thickness|
+|Hardware|3|H3 Hex Nut|ISO 4032|
+|Hardware|8|M3 Washer|DIN 125, 7mm outer diameter, 0.5 mm thickness|
 |Hardware|2|M3 x 20 SHCS|Socket head cap screw|
-|Hardware|2|M3 x 16 SHCS|Socket head cap screw|
-|Hardware|1|M3 x 12 SHCS|Socket head cap screw|
-|Hardware|3|M3 x 8 SHCS|Socket head cap screw|
+|Hardware|3|M3 x 16 SHCS|Socket head cap screw|
+|Hardware|3|M3 x 12 SHCS|Socket head cap screw|
 |Hardware|1|M3 x 6 SHCS|Socket head cap screw|
 |Hardware|2|M3 x 6 FHCS|Flat head cap screw. MUST BE MAGNETIC.  No stainless, may be black oxide or zinc coated.|
-|Hardware|2|M3 x 10 BHCS|Button Head Cap Screw|
+|Hardware|2|M3 x 12 BHCS|Button Head Cap Screw|
+|Hardware|2|M3 x 8 BHCS|Button Head Cap Screw|
 |Hardware|10|M3 x 6 BHCS|Button Head Cap Screw|
+|Hardware|2|M3 x 50 BHCS/SHCS|Button or Socket Head Cap Screw, fully threaded|
+
+Optionally you can replace the M3 x 6 FHCS with additional magnets. See [R8_errata.md](Manual/R8_errata.md) for details
 
 ## Sensor Options:  Select either “Wired Sensor” or “PCB Sensor"
 
