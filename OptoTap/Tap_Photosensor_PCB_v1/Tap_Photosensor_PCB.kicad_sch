@@ -880,6 +880,11 @@
     (uuid fe6f13a7-5197-4a27-9003-024b65c4cf39)
   )
 
+  (label "LED+" (at 177.8 62.23 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 07608b55-b7f7-4046-bc36-c2987c1305b6)
+  )
+
   (global_label "SIG" (shape input) (at 233.68 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid a814955f-be9b-4a4f-9212-a7bba9da0a58)
