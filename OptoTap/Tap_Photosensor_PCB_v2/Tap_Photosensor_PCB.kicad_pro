@@ -458,7 +458,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../../../SSC/Twist/Photosensor/Tap_Photosensor_PCB_v2.4/Tap_Photosensor_PCB.STEP",
+      "step": "Tap_Photosensor_PCB.STEP",
       "vrml": ""
     },
     "page_layout_descr_file": ""
