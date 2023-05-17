@@ -60,13 +60,35 @@ The current version (V2.4) fixes the inrush overvoltage spike that plagued the i
   - added 5V/24V selection solder jumper on rear of board to allow for easy bypassing of voltage regulator circuit
   - increased thermal relief on solder pads to make through-holes easier to solder
 
-### Assembly notes
+### Ordering and Assembly notes
 
 #### Inductor choice
 
 I've tested version of this PCB with inductors from Cenker 
 CKCS3012-4.7uH/M (C354557) and Microgate 
 MPIT3015-4R7M-LF (C486485). Any 30xx footprint coil inductor with >1A current rating and ~ 100 mΩ DCR should work ok.
+
+#### Indicator LED placement
+
+For some reason, JLCPCB has trouble with their part orientation for this LED specifically. I'm hoping that eventually they will sort their database out. In the meantime, it is worth verifying the part placement prior to assembly.
+
+The footprint silkscreen has two elements to help indicate the orientation of the LED: an extra line on the side to indicate Pin 1, and a little arrow that matches up with a corresponding arrow on the part:
+
+<img src="./images/kicad_led.png" width=400>
+
+For the v2.4 PCB, make sure that the arrow on the DFM points to the arrow on the footprint, pin 1 matches the extra line on the footprint, and the + pad matches up to the correct pad! 
+
+<img src="./images/dfm_led.png" width=400>
+
+This is how it will look when assembled:
+
+<img src="./images/photo_led.png" width=400>
+
+You can see the little bond wires from each of the three LEDs going back to the common anode, which is pretty neat.
+
+***NOTE THAT THE 5V ONLY BOARD (V1.3) HAS A ROTATED FOOTPRINT! YOU'RE WELCOME AND I'M SORRY.***
+
+<img src="./images/5v_led.png" width=400>
 
 
 ## Indicator LEDs
