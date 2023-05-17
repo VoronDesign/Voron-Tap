@@ -60,6 +60,14 @@ The current version (V2.4) fixes the inrush overvoltage spike that plagued the i
   - added 5V/24V selection solder jumper on rear of board to allow for easy bypassing of voltage regulator circuit
   - increased thermal relief on solder pads to make through-holes easier to solder
 
+### Assembly notes
+
+#### Inductor choice
+
+I've tested version of this PCB with inductors from Cenker 
+CKCS3012-4.7uH/M (C354557) and Microgate 
+MPIT3015-4R7M-LF (C486485). Any 30xx footprint coil inductor with >1A current rating and ~ 100 mΩ DCR should work ok.
+
 
 ## Indicator LEDs
 
