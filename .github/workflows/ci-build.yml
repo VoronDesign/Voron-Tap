@@ -1,4 +1,4 @@
-name: Voron CI
+name: Voron Tap CI
 
 on:
   push:
