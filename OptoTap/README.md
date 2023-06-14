@@ -35,7 +35,7 @@ This version saves some vertical room by requiring you to solder your connector 
 
 <img src="./images/optotap_v2.png" width=600>
 
-This version uses an AP63205WU switch mode regulator to drop input voltage and supply 5V to the sensor. This gives a bit of additional room to add a JST-PH 2.0mm pitch connector as well [part number S3B-PH-K-S (LF)(SN)].
+This version uses an AP63205WU switch mode regulator to drop input voltage and supply 5V to the sensor. This gives a bit of additional room to add a 3-pin JST-PH 2.0mm pitch connector as well [part number S3B-PH-K-S (LF)(SN)].
 
 **IMPORTANT NOTE: The original version of this board had an issue that rendered it unsafe for use at 24V**. Please see [this issue](https://github.com/VoronDesign/Voron-Tap/issues/42#issuecomment-1370065351) for more extensive details on the testing and resolution of the problem. 
 
