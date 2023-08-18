@@ -39,8 +39,19 @@ This version uses an AP63205WU switch mode regulator to drop input voltage and s
 
 **IMPORTANT NOTE: The original version of this board had an issue that rendered it unsafe for use at 24V**. Please see [this issue](https://github.com/VoronDesign/Voron-Tap/issues/42#issuecomment-1370065351) for more extensive details on the testing and resolution of the problem. 
 
-The current version (V2.4) fixes the inrush overvoltage spike that plagued the initial release, and adds several additional safeguards, including a polyfuse and a reverse polarity protection diode. 
+The current version (V2.4) fixes the inrush overvoltage spike that plagued the initial release, and adds several additional safeguards, including a polyfuse and a reverse polarity protection diode.
 
+### Usage notes
+
+#### Operation at 5V
+
+The V2.4 OptoTap PCB has been tested to work fine from 5V to 24V inputs with no modifications. However, this does induce a bit of additional voltage drop from the switching regulator IC going into LDO mode. If you would like to run the V2.4 OptoTap at 5V, my first suggestion would be to just run it at 5V with no modifications. It will most likely work just fine. 
+
+However, it does have the capacity to bypass the whole buck converter circuit. Note that this also bypasses the polyfuse, so there will be no overcurrent protection. 
+
+To make this modification, you need to cut the trace between the center pad and 24V pad on the rear of the PCB, then use some solder to bridge the center pad to the 5V pad. To reverse the change, just desolder that bridge and re-connect the center pad to the 24V pad with more solder. 
+
+<img src="./images/solder_bridge.png" width=400>
 
 ### Revision history
 
