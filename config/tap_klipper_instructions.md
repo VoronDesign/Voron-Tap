@@ -17,8 +17,48 @@ There are a few changes you'll need to make in order to get Tap working properly
 3. Update your probe's offsets: 
    
    - Remember, with Tap, your nozzle IS the probe, so your `[probe] x_offset` and `[probe] y_offset` values should be 0 now. You'll need to manually calibrate the probe's Z offset by using `PROBE_CALIBRATE`.
-   
-4. Add Tap's `activate_gcode:`  
+
+4.  Update QGL probing locations:
+```
+      #--------------------------------------------------------------------
+      ##  Gantry Corners for 250mm Build
+      ##  Uncomment for 250mm build
+      #gantry_corners:
+      #   -60,-10
+      #   310, 320
+      ##  Probe points
+      #points:
+      #   25,25
+      #   25,225
+      #   225,225
+      #   225,25
+    
+      ##  Gantry Corners for 300mm Build
+      ##  Uncomment for 300mm build
+      #gantry_corners:
+      #   -60,-10
+      #   360,370
+      ##  Probe points
+      #points:
+      #   25,25
+      #   25,275
+      #   275,275
+      #   275,25
+
+      ##  Gantry Corners for 350mm Build
+      ##  Uncomment for 350mm build
+      #gantry_corners:
+      #   -60,-10
+      #   410,420
+      ##  Probe points
+      #points:
+      #   25,25
+      #   25,325
+      #   325,325
+      #   325,25
+```
+            
+5. Add Tap's `activate_gcode:`  
    
    - This G-code will allow you to probe cold, but will also prevent you from probing with a nozzle at printing temperature (to try to preserve your build surface). This goes in the `[probe]` section of your config.  
 
