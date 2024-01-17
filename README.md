@@ -30,11 +30,18 @@ Comprehensive assembly details are available in the [Manual](Manual/Assembly_Man
 ## Post-Install Setup
 
 1. Update your `printer.cfg` as recommended in [Tap Klipper Instructions](config/tap_klipper_instructions.md)
-2. Home Z and test virtual Z endstop by lifting tool-head
-3. Heat soak your machine and run a couple `probe_accuracy samples=100` to "break-in" your probe
-4. Run a few more `probe_accuracy` checks (default of 10 probes)
+2. Test virtual Z endstop by lifting tool-head and using the `M119` or `query_probe` commands
+3. Home Z.
+4. Heat soak your machine and run a couple `probe_accuracy samples=100` to "break-in" your probe and check there's no significant trend in the result
+5. Run a few more `probe_accuracy` checks (default of 10 probes)
 
-For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation.
+### Diagnosing problems
+
+For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation. Where probe accuracy trends notably up/down over 100 samples, check that:
+- Sampling is taking place at a constant temperature (cooling/heating of any part will result in drift)
+- Z belts are tightened correctly and uniformly
+- The magnets on your tap have been adjusted to mate correctly when Tap is in the down position ([see the adjustment step in Nero3D's build guide](https://youtu.be/mJNCn72lQpU?t=751))
+- While originally intended for the klicky probe, the following [probe accuracy tests](https://github.com/sporkus/probe_accuracy_tests) may assist in further diagnosis.
 
 ## FAQs
 
