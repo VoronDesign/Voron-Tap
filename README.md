@@ -37,11 +37,16 @@ Comprehensive assembly details are available in the [Manual](Manual/Assembly_Man
 
 ### Diagnosing problems
 
-For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation. Where probe accuracy trends notably up/down over 100 samples, check that:
+For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation. Where probe accuracy trends notably up/down over 100 samples, or standard deviation is outside the desired range, check that:
 - Sampling is taking place at a constant temperature (cooling/heating of any part will result in drift)
 - Z belts are tightened correctly and uniformly
 - The magnets on your tap have been adjusted to mate correctly when Tap is in the down position ([see the adjustment step in Nero3D's build guide](https://youtu.be/mJNCn72lQpU?t=751))
-- While originally intended for the klicky probe, the following [probe accuracy tests](https://github.com/sporkus/probe_accuracy_tests) may assist in further diagnosis.
+- The rail is well greased, the balls are correctly seated and there's no swarf in the guides (eg from the manufacture)
+- The StealthBurner is firmly attached onto the Tap carriage
+  - A common mistake is that the tabs on the body of the SB are pushed up under the alignment screws on the carriage to seat it in place, but then not tightened - make sure to tighten these firmly!
+- The `speed` parameter in the `[probe]` section of your `printer.cfg` is appropriate (try `speed=3` with `lift_speed=10`)
+
+While originally intended for the klicky probe, the following [probe accuracy tests](https://github.com/sporkus/probe_accuracy_tests) may assist in further diagnosis.
 
 ## FAQs
 
