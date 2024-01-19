@@ -30,11 +30,24 @@ Comprehensive assembly details are available in the [Manual](Manual/Assembly_Man
 ## Post-Install Setup
 
 1. Update your `printer.cfg` as recommended in [Tap Klipper Instructions](config/tap_klipper_instructions.md)
-2. Home Z and test virtual Z endstop by lifting tool-head
-3. Heat soak your machine and run a couple `probe_accuracy samples=100` to "break-in" your probe
-4. Run a few more `probe_accuracy` checks (default of 10 probes)
+2. Test virtual Z endstop by lifting tool-head and using the `M119` or `query_probe` commands
+3. Home Z.
+4. Heat soak your machine and run a couple `probe_accuracy samples=100` to "break-in" your probe and check there's no significant trend in the result
+5. Run a few more `probe_accuracy` checks (default of 10 probes)
 
-For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation.
+### Diagnosing problems
+
+For well-built machines you can expect to see between 0.0000 and 0.0008 standard deviation. Where probe accuracy trends notably up/down over 100 samples, or standard deviation is outside the desired range, check that:
+- Sampling is taking place at a constant temperature (cooling/heating of any part will result in drift)
+- Z belts are tightened correctly and uniformly
+- The magnets on your tap have been adjusted to mate correctly when Tap is in the down position ([see the adjustment step in Nero3D's build guide](https://youtu.be/mJNCn72lQpU?t=751))
+- The rail is well greased, the balls are correctly seated and there's no swarf in the guides (eg from the manufacture)
+- The StealthBurner is firmly attached onto the Tap carriage
+  - A common mistake is that the tabs on the body of the SB are pushed up under the alignment screws on the carriage to seat it in place, but then not tightened - make sure to tighten these firmly!
+- The `speed` parameter in the `[probe]` section of your `printer.cfg` is appropriate (try `speed: 3` with `lift_speed: 10`)
+- Several runs of `probe_accuracy samples=100` have been run (it can take a little while to bed in the rail)
+
+While originally intended for the klicky probe, the following [probe accuracy tests](https://github.com/sporkus/probe_accuracy_tests) may assist in further diagnosis.
 
 ## FAQs
 
