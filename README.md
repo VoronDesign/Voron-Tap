@@ -45,6 +45,7 @@ For well-built machines you can expect to see between 0.0000 and 0.0008 standard
 - The StealthBurner is firmly attached onto the Tap carriage
   - A common mistake is that the tabs on the body of the SB are pushed up under the alignment screws on the carriage to seat it in place, but then not tightened - make sure to tighten these firmly!
 - The `speed` parameter in the `[probe]` section of your `printer.cfg` is appropriate (try `speed: 3` with `lift_speed: 10`)
+- Several runs of `probe_accuracy samples=100` have been run (it can take a little while to bed in the rail)
 
 While originally intended for the klicky probe, the following [probe accuracy tests](https://github.com/sporkus/probe_accuracy_tests) may assist in further diagnosis.
 
