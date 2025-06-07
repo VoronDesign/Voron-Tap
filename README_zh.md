@@ -1,4 +1,4 @@
-# OptoTap PCB
+# Voron Tap
 
 ![Voron-Tap3](images/Voron-Tap.gif)
 
@@ -17,7 +17,7 @@ Tap 是一个用于 V2 和 Trident 布局的基于喷嘴的 Z 探头。整个工
 ## 要求
 
 * 床必须足够稳定以承受 500-800 克的探针力
-  * Switchwire, V1.8, Legacy, V0 床不够坚固
+  * Switchwire, V1.8, Legacy, V0 热床不够坚固
 * 安装到 MGN-12H 线轨 X 轴
 * 前置安装的喷嘴（Clockwork2, LGX, Galileo）
 * 准确度取决于良好的机械条件
@@ -51,6 +51,6 @@ Tap 是一个用于 V2 和 Trident 布局的基于喷嘴的 Z 探头。整个工
 
 Tap 工程背后有数据科学的支持。如果您想深入了解，请参阅以下资源：
 
-* [Voron:LIVE! OptoTap 宣传片](https://www.youtube.com/watch?v=JLUDLJQXZeU)
+* [Voron:LIVE! Voron Tap 发布会](https://www.youtube.com/watch?v=JLUDLJQXZeU)
 * [热环境下的探针准确性](https://github.com/KiloQubit/probe_accuracy)
 * [各个角落的重复性](https://github.com/sporkus/probe_accuracy_tests)
